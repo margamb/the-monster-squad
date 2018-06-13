@@ -1,0 +1,85 @@
+img{
+    width: 100%;
+}
+
+body{
+    background: #F4E1B1;
+    /*background-image: url(./images/Fondo.psd) repeat ;*/
+}
+
+h1,h2,h3,h5{
+   color: #3E2206;
+   font-family: interstate;
+}
+
+p{
+   color: #3E2206;
+   font-size: 17px;
+   line-height: 25px;
+   font-family: "Georgia", serif;
+}
+
+.intro{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.specialise{
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.photo-specialise{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+
+.spe{
+    width: 28%;
+
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: row; 
+    justify-content: flex-end;   
+}
+
+ul{
+    list-style: none;
+    color: #3E2206;
+    font-family: "Georgia", serif; 
+    line-height: 25px;
+    width:65%;
+    align-self: flex-end;
+    text-align: right;
+    padding-left: 0;
+    
+}
+
+.even {
+    text-align: left;
+}
+
+.section{
+    border-bottom: 1px solid #3E2206;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.photo{
+    width: 35%;
+    align-self: flex-end;
+    transition: all 0.6s;
+}
+
+.photo:hover{
+    transform: scale(1.5);
+    transform-origin: bottom;
+}
+
