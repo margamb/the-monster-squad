@@ -214,14 +214,14 @@ ul{
     align-content: flex-end;
 }
 
-.dracula-team{
+.character-team{
     border-radius: 100%;
 }
-.dracula-blood{
+.ourTeam{
     position: relative;
 }
 
-.dracula-blood:before {
+.ourTeam:before {
     border-radius: 100%;
     content: "";
     display: block;
@@ -234,11 +234,11 @@ ul{
     transition: all .3s linear;
 }
       
-.dracula-blood:hover:before { 
+.ourTeam:hover:before { 
     background: none;
     
 }
-.text-blood{
+.text-team{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -246,12 +246,26 @@ ul{
     opacity: 1;    
 }
 
-.dracula-blood:hover > .text-blood {
+.ourTeam:hover > .text-team {
     opacity: 0;
 }
 
-.text-blood
+.text-team
 h1{
-    font-size: 60px;
+    font-size: 20px;
     color: #F4E1B1;
+}
+
+.allTeam{
+    width: 100%;
+    display:flex;
+    flex-wrap: wrap;
+    padding-bottom: 10%;
+    border-bottom: 1px solid #3E2206;
+    justify-content: space-around;
+    align-items: space-between;
+}
+
+.ourTeam{
+    width: 40%;
 }
