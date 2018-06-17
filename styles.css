@@ -2,6 +2,10 @@ img{
     width: 100%;
 }
 
+.header{
+    padding-top: 5%;
+}
+
 body{
     background: #F4E1B1;
     margin: 0;
@@ -71,6 +75,10 @@ h5{
     display: flex;
     flex-direction: row; 
     justify-content: flex-end;   
+}
+
+.title{
+    padding-top: 4%;
 }
 
 ul{
@@ -227,7 +235,7 @@ ul{
     display: block;
     position: absolute;
     top: 0;
-    bottom: 0;
+    bottom: 4px;
     left: 0;
     right: 0;
     background: rgba(238, 76, 55, 0.5); 
@@ -263,9 +271,10 @@ h1{
     padding-bottom: 10%;
     border-bottom: 1px solid #3E2206;
     justify-content: space-around;
-    align-items: space-between;
+    
 }
 
 .ourTeam{
     width: 40%;
+    margin: 2%;
 }
