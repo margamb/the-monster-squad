@@ -2,8 +2,16 @@ img{
     width: 100%;
 }
 
-.header{
+.logo{
+    width: 20%;
+    margin: 0;
     padding-top: 5%;
+    padding-left: 67%;
+    cursor: pointer;
+}
+
+.header{
+    padding-top: 0%;
 }
 
 body{
@@ -147,7 +155,7 @@ ul{
 .footer{
     margin: 0;
     width: 100%;
-    min-height: 185px;
+    min-height: 250px;
     background: url('./images/header-down.png') bottom no-repeat #F4E1B1;
     background-size: contain;
 }
@@ -159,7 +167,8 @@ ul{
     justify-content: center;
     align-items: flex-start;
     padding-top: 1%;
-    padding-bottom: 10%;
+    padding-bottom: 2%;
+    
     
 }
 
@@ -278,3 +287,20 @@ h1{
     width: 40%;
     margin: 2%;
 }
+
+h6,
+.marga {
+    font-size: 14px;
+    /* line-height: 1.5; */
+    font-family: interstate;
+    color: #3E2206;
+    text-align: end;
+    margin: 0;
+    padding-right: 8%;
+}
+
+.link {
+    color:#C52039;
+    text-decoration: none;
+}
+
