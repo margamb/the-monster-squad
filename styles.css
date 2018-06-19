@@ -317,3 +317,263 @@ h6,
     margin: 0;
 }
 
+@media only screen and (min-width: 601px) {
+    
+    .logo{
+        width: 15%;
+        padding-left: 70%;
+    }
+
+    .header{
+        padding-left: 5%;
+        padding-right: 5%;
+        width: 90%;
+    }
+
+    .container-all{
+        padding-left: 10%;
+        padding-right: 10%; 
+    }
+
+    .text-contact {
+        font-size: 16px;
+        text-align: center;
+        line-height: 37px;
+    }
+
+    .text{
+        font-size: 16px;
+    }
+
+}
+
+@media only screen and (min-width: 901px) {
+    .logo{
+        width: 10%;
+    }
+
+    .ourTeam{
+        width: 21%;
+        margin: 1%;
+        cursor: pointer;
+    }
+
+    .contact{
+        width:40%;
+    }
+
+    .social-media{
+        width: 35%;;
+    }
+
+    h6,
+    .marga{
+        font-size: 14px;
+        padding-right:13%
+    }
+
+    .poster{
+        width: 30%;
+    }
+
+    .text-projects {
+        font-size: 18px;
+        padding-left: 8%;
+        padding-right: 8%;
+    }
+
+    .title-projects{
+        font-size: 23px;
+    }
+
+    .parts-team{
+        font-size: 23px;
+    }
+
+    .intro
+    p{
+        font-size: 20px;
+        padding-left: 10%;
+        padding-right: 8%;
+    }
+
+    .specialty h5 {
+        margin: 10px;
+        padding-bottom: 10%;
+        font-size: 18px;
+    }
+
+    .section-character{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .section-character
+    p{
+        width: 75%;
+        font-size: 17px;
+        margin-top: 0;
+        padding-bottom: 2%;
+    }
+
+    .photo{
+        width: 50%;
+    }
+
+    ul{
+        width: 40%;
+        font-size: 16px;
+        align-self: center;
+    }
+
+    .container-all{
+        padding-left: 5%;
+        padding-right: 5%; 
+    }
+
+    .title{
+        font-size: 30px;
+    }
+
+    .even{
+        order: 3;
+        text-align: end;
+    }
+
+    .contact{
+        justify-content: center;
+    }
+
+    .social-media{
+        justify-content: center;
+    }
+
+    h6,
+    .marga{
+        padding-right: 15%;
+    }
+
+    .photo-specialise {
+        width: 90%;
+        padding-left: 8%;
+    }
+}
+
+@media only screen and (min-width: 1001px) {
+
+    .logo{
+        width: 8%;
+        padding-left: 75%;
+    }
+
+    .header{
+        width: 75%;
+        padding-left: 13%;
+        padding-right: 12%;
+    }
+
+    .intro p {
+        font-size: 19px;
+        padding-left: 15%;
+        padding-right: 13%;
+    }
+
+    .photo-specialise{
+        width: 80%;
+        padding-left: 12%;
+    }
+
+    .allTeam{
+        width: 90%;
+       padding-left: 5%;
+    }
+
+    .text-team
+    h1{
+        font-size: 32px;
+    }
+
+    .text-projects{
+        padding-left: 13%;
+        padding-right: 13%;
+    }
+
+    .title-footer1{
+        font-size: 22px;
+    }
+
+    .title-footer2{
+        font-size: 22px;
+    }
+
+    .text-contact{
+        font-size: 18px;
+    }
+
+    .text{
+        font-size: 18px;
+    }
+
+    h6,
+    .marga{
+        padding-right: 16%;
+        font-size: 17px;
+    }
+}
+
+@media only screen and (min-width: 1301px) {
+
+    .two-parts{
+        width: 100%;
+        display: flex;
+        align-content: center;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .partOne{
+        width: 40%;
+        text-align: center;
+        align-self: center;
+
+    }
+
+    .partTwo{
+        width: 70%;
+        margin: 0;
+    }
+
+    .ourTeam{
+        width: 20%;
+    }
+
+    .text-team
+    h1{
+        font-size: 10px;
+    }
+
+    .specialty h5 {
+        font-size: 12px;
+    }
+
+    .photo-specialise{
+        margin: 0;
+        padding-left: 10%;
+    }
+
+    .text-team
+h1{
+    font-size: 20px;
+    color: #F4E1B1;
+}
+
+.allTeam{
+    
+    border-bottom: 1px solid #F1F7EB;
+    
+    
+}
+
+
+}
