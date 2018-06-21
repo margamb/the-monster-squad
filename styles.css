@@ -318,6 +318,9 @@ h6,
     margin: 0;
 }
 
+.invisible {
+    display: contents;
+}
 @media only screen and (min-width: 601px) {
     
     .logo{
