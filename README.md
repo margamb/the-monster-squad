@@ -1,2 +1,4 @@
 # the-monster-squad
-Project to practice HTML, CSS and responsive design
+Project made in 2018 to practice HTML, CSS and responsive design 
+
+## Character design
